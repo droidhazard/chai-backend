@@ -1,0 +1,23 @@
+{
+  "name": "chai-backend",
+  "version": "1.0.0",
+  "description": "a backend at chai aur code channel - youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droidhazard/chai-backend.git"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Zohaib Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/droidhazard/chai-backend/issues"
+  },
+  "homepage": "https://github.com/droidhazard/chai-backend#readme"
+}
