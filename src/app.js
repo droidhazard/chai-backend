@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import dotenv from "dotenv";
+import morgan from "morgan";
 dotenv.config({ path: "../.env" });
 
 const app = express();
@@ -21,5 +22,6 @@ app.use(
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 app.use(express.static("public"));
 app.use(cookieParser());
+app.use(morgan("tiny"));
 
 export { app };
